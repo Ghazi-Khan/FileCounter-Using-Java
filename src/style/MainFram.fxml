@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="341.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainFramController">
+   <children>
+      <Label layoutX="150.0" layoutY="7.0" prefHeight="49.0" prefWidth="173.0" text="File Counter">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="67.0" prefHeight="49.0" prefWidth="262.0" text="Select Directory * ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="126.0" prefHeight="49.0" prefWidth="367.0" text="Select Destintion (Optional)">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="source" layoutX="343.0" layoutY="68.0" mnemonicParsing="false" onAction="#selectDir" prefHeight="28.0" prefWidth="102.0" text="Open">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="destinaton" disable="true" layoutX="343.0" layoutY="124.0" mnemonicParsing="false" onAction="#selectDes" prefHeight="42.0" prefWidth="102.0" text="Open">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="repot" disable="true" layoutX="158.0" layoutY="204.0" mnemonicParsing="false" onAction="#reportGenerater" prefHeight="42.0" prefWidth="194.0" text="Generate Report">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Button>
+      <Label layoutX="120.0" layoutY="257.0" prefHeight="49.0" prefWidth="262.0" text="Astron Private Limited">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="287.0" prefHeight="49.0" prefWidth="228.0" text="Developed by Ghazi Khan">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
