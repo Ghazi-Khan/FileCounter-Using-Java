@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Application;
 
 import java.io.IOException;
@@ -46,19 +42,11 @@ public class FileCounter extends Application {
 		}
 	}
 	
-    /**
-     *
-     * @param args
-     */
     public static void main(String[] args) {
 		launch(args);
 	}
 
-    /**
-     *
-     * @return
-     */
-    public static Stage getPrimaryStage() {
+        public static Stage getPrimaryStage() {
 	        return primaryStageObj;
 	 }
 
